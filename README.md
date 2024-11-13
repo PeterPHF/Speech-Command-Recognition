@@ -126,8 +126,8 @@ plt.legend(['train', 'validation'], loc='upper left')
 plt.show()
 ```
 
-![Learning Curve](artifacts\model_accuracy.png)
-![Learning Curve](artifacts\model_loss.png)
+![Learning Curve](artifacts/model_accuracy.png)
+![Learning Curve](artifacts/model_loss.png)
 
 2. Confusion Matrix: The confusion matrix provides detailed insights into model performance by visualizing the distribution of correct and incorrect predictions across all classes.
 
