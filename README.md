@@ -100,12 +100,14 @@ Learning rate, batch size, and the number of epochs can be adjusted for optimal 
 After training, the model is evaluated on the test dataset. The evaluation metrics include:
 
 - Accuracy: Overall classification accuracy.
-- Confusion Matrix: Visual representation of true vs. predicted labels.
 - Learning Curves: Plots of training and validation accuracy/loss over epochs.
+- Confusion Matrix: Visual representation of true vs. predicted labels.
 
 ## Results
 
-1. Learning Curves: Learning curves plot training and validation accuracy/loss, helping to assess model performance and diagnose potential overfitting or underfitting.
+1. Test Accuracy : **85.3%**
+
+2. Learning Curves: Learning curves plot training and validation accuracy/loss, helping to assess model performance and diagnose potential overfitting or underfitting.
 
 ```python
 plt.plot(history.history['accuracy'])
@@ -134,7 +136,7 @@ plt.show()
 
 ![Learning Curve](artifacts/model_loss.png)
 
-2. Confusion Matrix: The confusion matrix provides detailed insights into model performance by visualizing the distribution of correct and incorrect predictions across all classes.
+3. Confusion Matrix: The confusion matrix provides detailed insights into model performance by visualizing the distribution of correct and incorrect predictions across all classes.
 
 ```python
 y_pred = model.predict(X_test)
@@ -150,8 +152,6 @@ plt.show()
 ```
 
 ![Confusion Matrix](artifacts/confusion_matrix.png)
-
-The model achieved an accuracy of **85.3%** on the test dataset. Additional performance metrics and visualizations are shown below.
 
 ## License
 
