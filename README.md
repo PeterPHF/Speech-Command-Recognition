@@ -129,9 +129,11 @@ plt.show()
 The model achieved an accuracy of **85.3%** on the test dataset. Additional performance metrics and visualizations are shown below.
 
 - Model accuracy
+
 ![Learning Curve](artifacts/model_accuracy.png)
 
 - Model loss
+
 ![Learning Curve](artifacts/model_loss.png)
 
 2. Confusion Matrix: The confusion matrix provides detailed insights into model performance by visualizing the distribution of correct and incorrect predictions across all classes.
