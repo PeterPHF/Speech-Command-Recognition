@@ -126,8 +126,6 @@ plt.legend(['train', 'validation'], loc='upper left')
 plt.show()
 ```
 
-The model achieved an accuracy of **85.3%** on the test dataset. Additional performance metrics and visualizations are shown below.
-
 - Model accuracy
 
 ![Learning Curve](artifacts/model_accuracy.png)
@@ -152,6 +150,8 @@ plt.show()
 ```
 
 ![Confusion Matrix](artifacts/confusion_matrix.png)
+
+The model achieved an accuracy of **85.3%** on the test dataset. Additional performance metrics and visualizations are shown below.
 
 ## License
 
